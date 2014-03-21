@@ -1,0 +1,53 @@
+header > div:first-child {
+  background-color: #ef5ba1;
+}
+
+header > div:first-child > div:after{
+  display: block;
+  content: '';
+  clear: both;
+}
+
+header > div:first-child > div {
+  width: 985px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > div:first-child > div a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+
+header > div:first-child > div > ul a {
+  padding: 12px 6px;
+  opacity: .6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header > div:first-child > div > ul li {
+  float: left;
+}
+
+header > div:first-child > div > a {
+  float: right;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333;
+}
