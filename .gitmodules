@@ -1,3 +1,0 @@
-[submodule "test-repo"]
-	path = test-repo
-	url = git@github.com:snap-ci/test-repo
